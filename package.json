@@ -1,0 +1,16 @@
+{
+  "name": "mailing",
+  "version": "1.0.0",
+  "description": "Tool for developing HTML emails",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.1",
+    "gulp-inline-css": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "https://github.com/ferares",
+  "license": "ISC"
+}

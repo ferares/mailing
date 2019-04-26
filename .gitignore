@@ -1,0 +1,13 @@
+# Dependencies
+vendor
+node_modules
+
+# Build output
+build
+
+# Config file
+config.json
+
+# Source files
+src/*
+!src/.keep
