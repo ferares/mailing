@@ -5,9 +5,5 @@
   "password": "password",
   "secure": "ssl",
   "port": 465,
-  "recipients": [
-    "recipient1@gmail.com",
-    "recipient2@outlook.com",
-    "recipient3@yahoo.com"
-  ]
+  "recipients": "recipient1@gmail.com, recipient2@outlook.com, recipient3@yahoo.com"
 }

@@ -5,11 +5,13 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^4.0.1",
-    "gulp-inline-css": "^3.3.1"
+    "gulp-inline-css": "^3.3.1",
+    "nodemailer": "^6.1.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "send": "gulp send"
   },
   "author": "https://github.com/ferares",
   "license": "ISC"
