@@ -32,9 +32,9 @@ function sendMail(config, done) {
     if (err) throw err;
 
     transporter.sendMail({
-      from: '"Mailing tester" <noreply@mailing.test>',
+      from: config.from || '"Mailing tester" <noreply@mailing.test>',
       to: recipients,
-      subject: 'Mailing test',
+      subject: config.subject || 'Mailing test',
       text: 'You need an HTML compatible email client to read this email',
       html: data,
     }).then((info) => {
