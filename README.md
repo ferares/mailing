@@ -1,3 +1,7 @@
+# About
+
+This is a tool for developing HTML emails.
+
 # Installation
 
 1. `npm install`
