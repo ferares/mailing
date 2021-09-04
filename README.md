@@ -16,5 +16,4 @@ This is a tool for developing HTML emails.
 # Usage
 
 1. Write your code in `src/index.html` and your styles in `src/styles.css` (reference the stylesheet from within the HTML using a <link> tag)
-2. Run `npm start` to inline your styles in the HTML and output the result to the `build` folder
-3. Run `npm run send` to inline your styles in the HTML, output the result to the `build` folder and send the HTML email
+2. Run `npm start` to send your HTML email

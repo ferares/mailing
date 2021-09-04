@@ -1,9 +1,5 @@
 # Dependencies
-vendor
 node_modules
-
-# Build output
-build
 
 # Config file
 config.json

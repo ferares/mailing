@@ -2,16 +2,13 @@
   "name": "mailing",
   "version": "1.0.0",
   "description": "Tool for developing HTML emails",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "dependencies": {
-    "gulp": "^4.0",
-    "gulp-inline-css": "^4.0",
+    "inline-css": "^3.0.0",
     "nodemailer": "^6.6"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "gulp",
-    "send": "gulp send"
+    "start": "node index.js"
   },
   "author": "https://github.com/ferares",
   "license": "ISC"
