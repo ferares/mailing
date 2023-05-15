@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "inline-css": "4.0.2",
-    "nodemailer": "6.9.1"
+    "nodemailer": "6.9.2"
   },
   "scripts": {
     "start": "node index.js"
