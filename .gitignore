@@ -7,3 +7,6 @@ config.json
 # Source files
 src/*
 !src/.keep
+
+# Output
+./dist

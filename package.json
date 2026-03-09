@@ -1,15 +1,20 @@
 {
   "name": "mailing",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Tool for developing HTML emails",
-  "main": "index.js",
-  "dependencies": {
-    "juice": "10.0.0",
-    "nodemailer": "6.9.9"
-  },
+  "main": "index.ts",
   "scripts": {
-    "start": "node index.js"
+    "start": "tsx index.ts"
   },
   "author": "https://github.com/ferares",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "juice": "11.1.1",
+    "nodemailer": "8.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "25.3.3",
+    "@types/nodemailer": "7.0.11",
+    "tsx": "4.21.0"
+  }
 }
