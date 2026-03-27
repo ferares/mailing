@@ -12,8 +12,8 @@ importers:
         specifier: 11.1.1
         version: 11.1.1
       nodemailer:
-        specifier: 8.0.3
-        version: 8.0.3
+        specifier: 8.0.4
+        version: 8.0.4
     devDependencies:
       '@types/node':
         specifier: 25.5.0
@@ -279,8 +279,8 @@ packages:
     engines: {node: '>=4.0.0'}
     hasBin: true
 
-  nodemailer@8.0.3:
-    resolution: {integrity: sha512-JQNBqvK+bj3NMhUFR3wmCl3SYcOeMotDiwDBvIoCuQdF0PvlIY0BH+FJ2CG7u4cXKPChplE78oowlH/Otsc4ZQ==}
+  nodemailer@8.0.4:
+    resolution: {integrity: sha512-k+jf6N8PfQJ0Fe8ZhJlgqU5qJU44Lpvp2yvidH3vp1lPnVQMgi4yEEMPXg5eJS1gFIJTVq1NHBk7Ia9ARdSBdQ==}
     engines: {node: '>=6.0.0'}
 
   nth-check@2.1.1:
@@ -551,7 +551,7 @@ snapshots:
 
   mime@2.6.0: {}
 
-  nodemailer@8.0.3: {}
+  nodemailer@8.0.4: {}
 
   nth-check@2.1.1:
     dependencies:
