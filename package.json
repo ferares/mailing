@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "juice": "11.1.1",
-    "nodemailer": "8.0.4"
+    "nodemailer": "8.0.5"
   },
   "devDependencies": {
     "@types/node": "25.5.0",
