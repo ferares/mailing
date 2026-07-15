@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Tool for developing HTML emails",
   "engines": {
-    "node": "24"
+    "node": "26"
   },
   "scripts": {
     "start": "tsx index.ts"
@@ -11,12 +11,12 @@
   "author": "https://github.com/ferares",
   "license": "ISC",
   "dependencies": {
-    "juice": "12.1.0",
-    "nodemailer": "9.0.1"
+    "juice": "12.1.1",
+    "nodemailer": "9.0.3"
   },
   "devDependencies": {
-    "@types/node": "24.12.2",
+    "@types/node": "26.1.1",
     "@types/nodemailer": "8.0.1",
-    "tsx": "4.22.4"
+    "tsx": "4.23.0"
   }
 }
