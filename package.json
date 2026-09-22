@@ -11,12 +11,12 @@
   "author": "https://github.com/ferares",
   "license": "ISC",
   "dependencies": {
-    "juice": "12.1.2",
-    "nodemailer": "9.0.5"
+    "juice": "12.1.3",
+    "nodemailer": "10.0.10"
   },
   "devDependencies": {
-    "@types/node": "26.2.0",
+    "@types/node": "26.5.1",
     "@types/nodemailer": "8.0.1",
-    "tsx": "4.23.12"
+    "tsx": "4.23.13"
   }
 }
